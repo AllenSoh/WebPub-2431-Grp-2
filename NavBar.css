@@ -1,0 +1,36 @@
+.inter:hover {opacity:0.60;}
+a.nav{color:white;padding:2%;}
+a.nav:hover{background-color:#20c0e8; color:black; padding:2%; border-radius:0.25em;}
+h2{font-size:100%; color:white;}
+h1{
+    color:white;
+    font-size:700%;
+}
+
+body.store{
+    background-image: url('dark\ bg.png'); 
+    margin:0;
+    margin-top:0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100%;
+    background-position: center;
+    font-family:helvetica;
+}
+
+body.others{
+    background-image: url('bright\ bg.png');
+    margin: 0%;
+    margin-top: 0%; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100%;
+    background-position: center;
+    font-family: helvetica;
+}
+
+h1.bgfooter{
+    font-size: 40px;
+    }

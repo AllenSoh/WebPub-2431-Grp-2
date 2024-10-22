@@ -1,0 +1,12 @@
+h2{font-family:helvetica;font-size:200%; color:white;}
+h1{font-family:helvetica;color:white; font-size:700%;}
+h2.shop{font-family:helvetica;color:black; font-size:300%; background-color:white; padding:3%;}
+button.shop {width:100%;background:linear-gradient(#6900a6, #230187); border-width:5px; border-radius:3%; border-color:#1a0020; border-style:solid;}
+button.rev {width:100%;background:linear-gradient(#FFD700, #b37700); border-width:5px;border-radius:3%; border-color:#cfae00; border-style:solid;}
+button.shop:hover {opacity:0.60;}
+img {height:70%; width:70%;}
+p.shop{font-family:helvetica;color:black; font-size:160%; background-color:white; padding:3%; border-radius:10%;}
+h2.rev{font-family:helvetica;color:black; font-size:300%;}
+#BUY {color:white; font-family:helvetica; font-size:100%; padding: 2.85%; width:90%;background:linear-gradient(#6900a6, #230187); border-radius:6%; border-color:Black; border-style:solid; border-width:thick; font-weight:bold;}
+#BUY:HOVER {background:linear-gradient(#150096, #000137);color:#AFAFAF;}
+.veiw:hover {opacity:0.50;}

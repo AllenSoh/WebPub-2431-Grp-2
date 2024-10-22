@@ -1,0 +1,64 @@
+.Thumbs {
+    cursor: pointer;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    
+    -webkit-transition: all 100ms ease-in;
+    -moz-transition: all 100ms ease-in;
+    transition: all 100ms ease-in;
+    -webkit-filter: brightness(1.8) grayscale(1) opacity(.6);
+    -moz-filter: brightness(1.8) grayscale(1) opacity(.6);
+    filter: brightness(1.8) grayscale(1) opacity(.6);
+}
+
+.Thumbs:hover {
+    -webkit-filter: brightness(1.2) grayscale(.5) opacity(.9);
+    -moz-filter: brightness(1.2) grayscale(.5) opacity(.9);
+    filter: brightness(1.2) grayscale(.5) opacity(.9);
+}
+
+.selector input:active+.Thumbs {
+    opacity: .9;
+}
+
+.selector input:checked+.Thumbs {
+    -webkit-filter: none;
+    -moz-filter: none;
+    filter: none;
+}
+
+.selector input {
+    margin: 0;
+    padding: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.Tableshit {
+    Max-width: 825px;
+    Margin: auto;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px;
+}
+
+p {
+    font-size :27px;
+}
+
+textarea{
+    border-radius :10px;
+    border:3px solid black;
+}
+input {
+    border-radius:10px; 
+    border: 1px solid #636363;
+
+}
+.button{
+    width:70px;
+    height: 30px;
+}

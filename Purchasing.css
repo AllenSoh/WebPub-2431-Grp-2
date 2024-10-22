@@ -1,0 +1,15 @@
+.credentials{
+    background-color: white;
+    box-shadow: 10px 10px 5px;
+    height: 190px;
+    Max-width: 825px;
+    Margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.button{
+    width:70px;
+    height: 30px;
+    text-align:center;
+}
